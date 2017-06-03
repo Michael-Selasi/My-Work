@@ -31,6 +31,7 @@ gem "paperclip", "~> 4.3.7"
 gem "paperclip-dropbox", ">= 1.3.2"
 gem "figaro"
 gem 'devise'
+gem 'stripe'
 gem 'jquery-rails'
 gem 'sprockets', '3.7.1'
 

@@ -1,6 +1,18 @@
-<h1>Editing Listing</h1>
+<div class="row">
+	<div class="col-md-2">
+	</div>
 
-<%= render 'form', listing: @listing %>
+	<div class="col-md-8">
+		<h1>Edit Items</h1>
 
-<%= link_to 'Show', @listing, class: "btn btn-link" %> |
-<%= link_to 'Back', listings_path, class: "btn btn-link" %>
+		<%= render 'form', listing: @listing %>
+
+		<%= link_to 'Show', @listing, class: "btn btn-link" %> |
+		<%= link_to 'Back', listings_path, class: "btn btn-link" %>
+	</div>
+
+	<div class="col-md-2">
+	</div>
+</div>
+
+
